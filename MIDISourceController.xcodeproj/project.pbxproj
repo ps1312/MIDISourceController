@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3AFED75D2917F10700982808 /* MIDISourceController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFED7542917F10600982808 /* MIDISourceController.framework */; };
 		3AFED7622917F10700982808 /* MIDISourceControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFED7612917F10700982808 /* MIDISourceControllerTests.swift */; };
-		3AFED7632917F10700982808 /* MIDISourceController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFED7572917F10600982808 /* MIDISourceController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		3AFED7542917F10600982808 /* MIDISourceController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MIDISourceController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AFED7572917F10600982808 /* MIDISourceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MIDISourceController.h; sourceTree = "<group>"; };
 		3AFED75C2917F10700982808 /* MIDISourceControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MIDISourceControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFED7612917F10700982808 /* MIDISourceControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDISourceControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 		3AFED7562917F10600982808 /* MIDISourceController */ = {
 			isa = PBXGroup;
 			children = (
-				3AFED7572917F10600982808 /* MIDISourceController.h */,
 			);
 			path = MIDISourceController;
 			sourceTree = "<group>";
@@ -89,7 +86,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AFED7632917F10700982808 /* MIDISourceController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
